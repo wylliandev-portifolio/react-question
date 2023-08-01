@@ -34,9 +34,9 @@ export default class Question extends Component {
             <label>Sim</label>
           </div>
         </div>
-        <div id='tipoNao' className="rectangle2" style={{right: left}} onClick={onClickButton}>
+        <div id='tipoNao' className="rectangle2" style={{right: left}} onMouseOver={onClickButton}>
           <div>
-            <label>Nao</label>
+            <label>Não</label>
           </div>
         </div>
 
