@@ -15,28 +15,64 @@ display: flex;
     justify-content: space-between;
     display: flex;
 } */
-
-  .desktop .rectangle2 {
-    background-color: #750505;
-    height: 195px;
-    width: 350px;
-    right: 148px;
-    position: absolute;
-    top: 80%;
-    align-items: center;
+/* 
+.desktop {
     justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #d9dadb;
+  min-height: 100vh;
+  display: flex;
+}  */
+
+
+.rectangle {
+    background-color: #2700b3;
+    height: 10%;
+    width: 30%;
+    left:  10%;
+    position: absolute;
+    top:  80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-style: solid;
+  }
+
+  .rectangle2 {
+    background-color: #750505;
+    height: 10%;
+    width: 30%;
+    left: 60%;
+    position: absolute;
+    top:  80%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border-color: aliceblue;
+    border-style: solid;
   }
   
-  .desktop .rectangle {
-    background-color: #d9d9d9;
-    height: 195px;
-    width: 350px;
-    left: 148px;
+
+.texto {
+    font-size: 20px;
+}
+
+/*   
+  .texto {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    left: 131px;
+    letter-spacing: 0;
+    line-height: normal;
     position: absolute;
-    top: 80%;
-    text-align: center;
-    justify-content: center;
-  }
+    top: 38px;
+  } */
+
 /* 
   .desktop .overlap-group {
     background-color: #d9d9d9;
@@ -76,16 +112,5 @@ display: flex;
     top: 54px;
     width: 301px;
   }
-  
-  .desktop .text-wrapper {
-    color: #ffffff;
-    font-family: "Inter-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
-    left: 131px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 38px;
-  }
-   */
+  */
+   

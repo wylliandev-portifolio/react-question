@@ -6,16 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import { Metrics } from '@edgio/rum'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-new Metrics({
-  token: '9bd036c7-eb1c-45b2-8418-a4fe92f23293'
-}).collect()
 
 root.render(
   
   <React.StrictMode>
     <App />
-
-
   </React.StrictMode>
   
 );
