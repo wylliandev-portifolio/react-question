@@ -41,6 +41,11 @@ display: flex;
     border-style: solid;
   }
 
+  .nome{
+    background-color: #0f1e3d;
+    color: #0f1e3d;
+  }
+
   .rectangle2 {
     background-color: #750505;
     height: 10%;
